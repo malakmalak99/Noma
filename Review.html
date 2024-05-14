@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<title>Review section</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="project-style.css">
+	
+    <!-- favicon -->
+	<link rel = "icon" type="image/x-icon" href ="icon.ico">
+	
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+  <a href="#" class="logo"><i class="fas fa-utensils"></i> noma </a>
+
+    <nav class="navbar">
+        <a class="active" href="index.html">home</a>
+        <a href="About.html">about</a>
+        <a href="Menu.html">menu</a>
+        <a href="Review.html">review</a>
+        <a href="Order.html">order</a>
+    </nav>
+	
+	 <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+
+<!-- header section ends-->
+
+<!-- search form  -->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+     <br>
+	 <br>
+	 <br>
+    <h3 class="sub-heading"> customer's review </h3>
+    <h1 class="heading"> what they say </h1>
+
+    <div class="swiper-container review-slider">
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="pic-1.png" alt="">
+                    <div class="user-info">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Confirmed - the BEST restaurant in the world! We were on the waiting list and it felt super surreal when I received the reservation email. We went for lunch and were the first ones in the restaurant, and the entire team was behind the door to greeet us - amazing!The ambience is fantastic and the food is unbelievable - in textures and taste and presentation!The "bad" thing is that now we compare all other restaurants with Noma....so definitely will be coming back.</p>
+            </div>
+
+              <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="pic-2.png" alt="">
+                    <div class="user-info">
+                        <h3>Evelina Poumpalova</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Wow, I’m impressed. Service is impeccable, just great, super friendly and helpful. The food is clearly perfected in several iterations. The theme is incredibly thoughtful and runs through the whole meal, each dish is a wonder in itself. I’m super happy to have experienced it </p>
+            </div>
+        </div>
+
+    </div>
+    
+</section>
+<!-- review section ends -->
+</body>
+</html>
